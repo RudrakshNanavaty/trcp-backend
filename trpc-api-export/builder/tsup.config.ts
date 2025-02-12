@@ -9,5 +9,4 @@ const tsupConfig = defineConfig({
   tsconfig: 'trpc-api-export/builder/tsconfig.build.json',
 });
 
-// eslint-disable-next-line
 export default tsupConfig;

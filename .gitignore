@@ -120,6 +120,10 @@ out
 .nuxt
 dist
 
+# Commit the generated TRPC types to export
+!trpc-api-export/dist/
+!trpc-api-export/dist/**
+
 # Gatsby files
 
 # Comment in the public line in if your project uses Gatsby and not Next.js
